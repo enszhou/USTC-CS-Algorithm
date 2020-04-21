@@ -1,0 +1,104 @@
+digraph ITree{
+ node[shape="circle", fontcolor="white", style="filled"];
+  x012E3050[label="[96, 404]
+max = 494", color="BLACK"];
+x012E30A0[label="[7, 151]
+max = 429",color="BLACK"];
+x012E3050 -> x012E30A0;
+x012E2E70[label="[2, 59]
+max = 281",color="BLACK"];
+x012E30A0 -> x012E2E70;
+x012E2D30[label="[0, 281]
+max = 281",color="RED"];
+x012E2E70 -> x012E2D30;
+NIL0[color="BLACK"];
+x012E2D30 -> NIL0;
+NIL1[color="BLACK"];
+x012E2D30 -> NIL1;
+x012E3370[label="[4, 188]
+max = 188",color="RED"];
+x012E2E70 -> x012E3370;
+NIL2[color="BLACK"];
+x012E3370 -> NIL2;
+NIL3[color="BLACK"];
+x012E3370 -> NIL3;
+x012E2FB0[label="[73, 82]
+max = 429",color="RED"];
+x012E30A0 -> x012E2FB0;
+x012E30F0[label="[45, 182]
+max = 303",color="BLACK"];
+x012E2FB0 -> x012E30F0;
+x012E3140[label="[28, 303]
+max = 303",color="RED"];
+x012E30F0 -> x012E3140;
+NIL4[color="BLACK"];
+x012E3140 -> NIL4;
+NIL5[color="BLACK"];
+x012E3140 -> NIL5;
+NIL6[color="BLACK"];
+x012E30F0 -> NIL6;
+x012E3000[label="[87, 429]
+max = 429",color="BLACK"];
+x012E2FB0 -> x012E3000;
+x012E2F60[label="[83, 331]
+max = 331",color="RED"];
+x012E3000 -> x012E2F60;
+NIL7[color="BLACK"];
+x012E2F60 -> NIL7;
+NIL8[color="BLACK"];
+x012E2F60 -> NIL8;
+NIL9[color="BLACK"];
+x012E3000 -> NIL9;
+x012E3410[label="[239, 292]
+max = 494",color="BLACK"];
+x012E3050 -> x012E3410;
+x012E33C0[label="[176, 225]
+max = 494",color="RED"];
+x012E3410 -> x012E33C0;
+x012E2D80[label="[175, 447]
+max = 447",color="BLACK"];
+x012E33C0 -> x012E2D80;
+x012E2EC0[label="[150, 259]
+max = 259",color="RED"];
+x012E2D80 -> x012E2EC0;
+NIL10[color="BLACK"];
+x012E2EC0 -> NIL10;
+NIL11[color="BLACK"];
+x012E2EC0 -> NIL11;
+NIL12[color="BLACK"];
+x012E2D80 -> NIL12;
+x012E2E20[label="[222, 494]
+max = 494",color="BLACK"];
+x012E33C0 -> x012E2E20;
+NIL13[color="BLACK"];
+x012E2E20 -> NIL13;
+NIL14[color="BLACK"];
+x012E2E20 -> NIL14;
+x012E3320[label="[265, 285]
+max = 411",color="RED"];
+x012E3410 -> x012E3320;
+x012E3280[label="[256, 355]
+max = 355",color="BLACK"];
+x012E3320 -> x012E3280;
+NIL15[color="BLACK"];
+x012E3280 -> NIL15;
+NIL16[color="BLACK"];
+x012E3280 -> NIL16;
+x012E3230[label="[373, 411]
+max = 411",color="BLACK"];
+x012E3320 -> x012E3230;
+x012E32D0[label="[300, 303]
+max = 303",color="RED"];
+x012E3230 -> x012E32D0;
+NIL17[color="BLACK"];
+x012E32D0 -> NIL17;
+NIL18[color="BLACK"];
+x012E32D0 -> NIL18;
+x012E3460[label="[391, 401]
+max = 401",color="RED"];
+x012E3230 -> x012E3460;
+NIL19[color="BLACK"];
+x012E3460 -> NIL19;
+NIL20[color="BLACK"];
+x012E3460 -> NIL20;
+}
